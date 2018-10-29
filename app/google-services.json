@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "146889668554",
+    "firebase_url": "https://farmadvisor-3ce1e.firebaseio.com",
+    "project_id": "farmadvisor-3ce1e",
+    "storage_bucket": "farmadvisor-3ce1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146889668554:android:26cb7e05d779d010",
+        "android_client_info": {
+          "package_name": "com.project.farmadvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146889668554-vped29tunj43qd0f97b5mt455250tbq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBicWtVNd6Yu49Guhldo0sibxa86DXQSUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

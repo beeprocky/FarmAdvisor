@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Farm Advisor</string>
+
+    <string name="username">Not Connected</string>
+    <string name="text_user">User:</string>
+    <string name="user_icon">User profile image</string>
+
+    <string name="farmname">Not Connected</string>
+    <string name="text_farm">Farm:</string>
+    <string name="farm_icon">User farm image</string>
+
+    <string name="prep_data">Prepare Data</string>
+</resources>
