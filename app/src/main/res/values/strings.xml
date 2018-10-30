@@ -1,13 +1,30 @@
 <resources>
     <string name="app_name">Farm Advisor</string>
+    <string name="text_not_available">Not Available</string>
 
-    <string name="username">Not Connected</string>
-    <string name="text_user">User:</string>
-    <string name="user_icon">User profile image</string>
+    <string name="user_default_name">Not Connected</string>
+    <string name="user_header_text">User:</string>
+    <string name="user_icon_text">User profile image</string>
 
-    <string name="farmname">Not Connected</string>
-    <string name="text_farm">Farm:</string>
-    <string name="farm_icon">User farm image</string>
+    <string name="farm_default_name">Not Connected</string>
+    <string name="farm_header_text">Farm:</string>
+    <string name="farm_icon_text">User farm image</string>
 
-    <string name="prep_data">Prepare Data</string>
+    <string name="prep_data_btn_text">Prepare Data</string>
+
+    <string name="sign_in_text">Sign in</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="sign_out_text">Sign out</string>
+
+    <string name="email_header_text">Email:</string>
+    <string name="fire_base_id_header_text">Firebase ID:</string>
+
+    <string name="user_name_hint">Username</string>
+    <string name="user_name_req_hint">Username Required!</string>
+    <string name="user_name_too_short_hint">Username is too short! (3)</string>
+    <string name="email_hint">name@example.com</string>
+    <string name="email_req_hint">Email Required!</string>
+    <string name="password_hint">password</string>
+    <string name="password_req_hint">Password Required!</string>
+    <string name="password_too_short_hint">Password is too short! (6)</string>
 </resources>

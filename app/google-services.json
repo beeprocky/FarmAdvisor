@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "146889668554-thtfvb0a1v79p850u6dh4sm9ah7435su.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.farmadvisor",
+            "certificate_hash": "8d2793c3cbaeb5e7262ae9ddad5f60c7ce13847e"
+          }
+        },
+        {
           "client_id": "146889668554-vped29tunj43qd0f97b5mt455250tbq8.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146889668554-vped29tunj43qd0f97b5mt455250tbq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
