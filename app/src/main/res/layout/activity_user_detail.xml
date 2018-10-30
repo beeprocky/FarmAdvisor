@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailActivity">
+
+    <Button
+        android:id="@+id/btnUserDetSignOut"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorRedButton"
+        android:text="@string/sign_out_text"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtUserDetNameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/text_header_spacing"
+        android:text="@string/user_header_text"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtUserDetName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_text_spacing"
+        android:text="@string/text_not_available"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toEndOf="@+id/txtUserDetNameHeader"
+        app:layout_constraintTop_toTopOf="@+id/txtUserDetNameHeader" />
+
+    <TextView
+        android:id="@+id/txtUserDetEmailHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_text_spacing"
+        android:text="@string/email_header_text"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toStartOf="@+id/txtUserDetNameHeader"
+        app:layout_constraintTop_toBottomOf="@+id/txtUserDetNameHeader" />
+
+    <TextView
+        android:id="@+id/txtUserDetEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_text_spacing"
+        android:text="@string/text_not_available"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toEndOf="@+id/txtUserDetEmailHeader"
+        app:layout_constraintTop_toTopOf="@+id/txtUserDetEmailHeader" />
+
+    <TextView
+        android:id="@+id/txtUserDetFbaseIdHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_text_spacing"
+        android:text="@string/fire_base_id_header_text"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toStartOf="@+id/txtUserDetEmailHeader"
+        app:layout_constraintTop_toBottomOf="@+id/txtUserDetEmailHeader" />
+
+    <TextView
+        android:id="@+id/txtUserDetFbaseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_text_spacing"
+        android:text="@string/text_not_available"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        app:layout_constraintStart_toEndOf="@+id/txtUserDetFbaseIdHeader"
+        app:layout_constraintTop_toTopOf="@+id/txtUserDetFbaseIdHeader" />
+</android.support.constraint.ConstraintLayout>
